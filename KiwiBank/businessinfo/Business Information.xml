@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="58A687C8-E7EF-833F-83B1-E2321B0C201C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:02:30 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

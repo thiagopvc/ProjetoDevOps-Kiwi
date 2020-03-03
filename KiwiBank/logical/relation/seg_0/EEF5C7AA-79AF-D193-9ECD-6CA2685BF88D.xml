@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="EEF5C7AA-79AF-D193-9ECD-6CA2685BF88D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:33:59 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<sourcePk>C58EF282-6BA8-A6D7-80A4-21D6664868E6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C731638-2B4A-4915-7063-EE3BD1A1213C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A043440-83D2-06EC-2F03-B15A0B7848F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

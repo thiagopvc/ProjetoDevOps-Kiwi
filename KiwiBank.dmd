@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KiwiBank" id="810997E5-2A8F-FAFE-A7B4-58A555B6AE77" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:02:30 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>810997E5-2A8F-FAFE-A7B4-58A555B6AE77</designId>
+</OSDM_Design>

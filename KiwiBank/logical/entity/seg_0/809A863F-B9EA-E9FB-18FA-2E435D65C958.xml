@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="809A863F-B9EA-E9FB-18FA-2E435D65C958" name="TB_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:03:03 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="C3B5E4E8-3D0E-2E1B-5021-B3F777D73421">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:03:50 UTC</createdTime>
+<comment>codigo de 5 digitos gerados por uma sequencia</comment>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj_empresa" id="BE700917-B156-84DF-E1D9-5148B156A56E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:33:19 UTC</createdTime>
+<comment>cnpj da empresa</comment>
+<commentInRDBMS>numero do cnpj </commentInRDBMS>
+<generatorID>D233F4A6-FBF7-B5DF-89CC-4F561C55589E</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<referedAttribute>86EB6E22-9859-4B15-0CC9-6FE7B2C03E2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto" id="74617C6C-C7B6-9554-80FA-380A8A26F5A2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:04:18 UTC</createdTime>
+<comment>nome do produto com 30 chars</comment>
+<commentInRDBMS>nome do produto</commentInRDBMS>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_produto" id="E9ABD728-8EB6-2CC0-B009-DB28EC5DBAD8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:04:31 UTC</createdTime>
+<comment>quantidade de produtos</comment>
+<commentInRDBMS>quantidade de produto</commentInRDBMS>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0BDCF1E-7284-A341-1995-A96A68CB9B9D" name="TB_ESTOQUE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:04:13 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0D024751-F942-8FED-BC75-ED9622C8FBB8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3B5E4E8-3D0E-2E1B-5021-B3F777D73421</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

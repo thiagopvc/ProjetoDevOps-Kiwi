@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF94C7A-23F9-EB91-2811-823230D93388" name="TB_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>809A863F-B9EA-E9FB-18FA-2E435D65C958</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="7ACDECCB-116E-CEE0-516A-F59492E9B02C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>C3B5E4E8-3D0E-2E1B-5021-B3F777D73421</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_FORNECEDOR_nr_cnpj_empresa" id="61E19EE6-596A-48C5-7E80-B0A82FF9A236">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>BE700917-B156-84DF-E1D9-5148B156A56E</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1861F051-DAC4-F3CB-0D56-668F4AF57C97" referredColumn="96EA60A5-DAF8-7C45-E528-BA171AE57CF9"/>
+</associations>
+</Column>
+<Column name="nm_produto" id="03C56A9C-8BC0-8755-B611-EA7D507809E7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>74617C6C-C7B6-9554-80FA-380A8A26F5A2</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_produto" id="BAA12139-61A3-D849-F1AC-F23974C176C9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>E9ABD728-8EB6-2CC0-B009-DB28EC5DBAD8</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C558B60E-C390-4BFA-B49F-68CA1A47D4AB" name="TB_PRODUTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>A0BDCF1E-7284-A341-1995-A96A68CB9B9D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ACDECCB-116E-CEE0-516A-F59492E9B02C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D079B1AC-3066-E34F-702C-D3E41D034111" name="TB_PRODUTO_TB_FORNECEDOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>D233F4A6-FBF7-B5DF-89CC-4F561C55589E</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E19EE6-596A-48C5-7E80-B0A82FF9A236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0965348-31F6-0484-3BF7-224350770472" name="TB_FORNECEDOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>D3E48AD1-42A7-030E-AED6-BABF8F81FAEA</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cnpj_empresa" id="96EA60A5-DAF8-7C45-E528-BA171AE57CF9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>86EB6E22-9859-4B15-0CC9-6FE7B2C03E2A</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_empresa" id="98CAC478-A7D0-EB4A-016C-1D78486083EF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>BC3DDE2E-F8C3-D9C4-637A-B75D7425DEF4</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="7D830EF3-E29B-69F0-E6EB-A6C73CAC4AB5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>53A91D55-2A08-7AE9-4D8D-62B92E5841B7</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_inscricao_estadual" id="96AEE3B6-D772-3400-5454-90DBB8064F6A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>961C4C61-7502-722F-7615-48ACD303BA43</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="91769CA6-F5DA-1D46-BEC4-FF0B24CFDBA5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>EF38F55F-E222-8728-F025-58C716AF89B5</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_contato" id="4AD954FB-30DA-16F0-72C7-671E3FF54C98">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>1F3D718C-F2F1-8559-C01B-88CB12C40D79</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52AE3745-3582-CED9-132E-8FD473B25E8E" name="TB_FORNECEDOR_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>AB9F52A1-436D-5032-169A-03F145FA34E1</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96EA60A5-DAF8-7C45-E528-BA171AE57CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

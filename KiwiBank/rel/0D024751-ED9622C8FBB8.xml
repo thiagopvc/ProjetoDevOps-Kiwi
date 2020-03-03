@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="0D024751-F942-8FED-BC75-ED9622C8FBB8" mainViewID="9716CC72-BA1C-4FC7-6BD0-B3BDE30564EA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:02:53 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

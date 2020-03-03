@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5DB14C8-B8A7-17D4-931D-CADCAC084410" containerWithKeyObject="63A1A200-E5B0-643F-C9AB-BC255AE70830" localFKIndex="8BC767BD-86DC-04C6-E449-485E1670F301" name="TB_MOVIMENTO_TB_PRODUTO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>7142DC20-7161-9196-4157-D787786E2CD8</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<referredTableLongName>TB_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBF94C7A-23F9-EB91-2811-823230D93388</referredTableID>
+<keyObject>C558B60E-C390-4BFA-B49F-68CA1A47D4AB</keyObject>
+<referredKeyID>C558B60E-C390-4BFA-B49F-68CA1A47D4AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

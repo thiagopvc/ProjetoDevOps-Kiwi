@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63A1A200-E5B0-643F-C9AB-BC255AE70830" name="TB_MOVIMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>2A043440-83D2-06EC-2F03-B15A0B7848F1</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_movimento" id="DFFD3C59-FA0C-BDF5-722B-49A92E46156F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 12:09:35 UTC</createdTime>
+<generatorID>67F8F003-F400-3FBE-6843-398BEAEA9D66</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_FUNCIONARIO_cd_funcionario" id="AAF104A5-398F-A57E-0E3F-D7E6B7E1F3C4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>A68971FE-79AF-2D07-E6D5-62409E42CF9D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668CD24A-B522-C932-6F66-CD4F03F9C88E" referredColumn="43097D9C-2655-43FB-89EA-9E2DA423B214"/>
+</associations>
+</Column>
+<Column name="TB_PRODUTO_cd_produto" id="29B07F75-1530-DD72-7D56-1F87DECC3610">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>3E3737AA-A395-0314-A0FC-70BA2024E80D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5DB14C8-B8A7-17D4-931D-CADCAC084410" referredColumn="7ACDECCB-116E-CEE0-516A-F59492E9B02C"/>
+</associations>
+</Column>
+<Column name="qt_movimentos" id="13DB2F4A-4242-14AD-2419-23EB89384A77">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 12:09:35 UTC</createdTime>
+<generatorID>D2EE3FF6-1660-9901-F2C5-4450B3E67F20</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_movimento" id="137B12E9-992C-4EA1-1914-C4ABA94F3A7E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 12:09:35 UTC</createdTime>
+<comment>Essse atributo recebe entrada &apos;E&apos; e saida &apos;S&apos;</comment>
+<generatorID>F10980EC-D003-ED73-FE0C-0B9EC9D6D30B</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B52E367-FD84-3A57-53DB-5A35ABDD69FF" name="TB_MOVIMENTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>8B136739-11EE-2F96-0B61-54B032E94ED3</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFFD3C59-FA0C-BDF5-722B-49A92E46156F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8528D94-35F3-105D-5176-E0D9B00435F6" name="TB_MOVIMENTO_TB_FUNCIONARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>EEF5C7AA-79AF-D193-9ECD-6CA2685BF88D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAF104A5-398F-A57E-0E3F-D7E6B7E1F3C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BC767BD-86DC-04C6-E449-485E1670F301" name="TB_MOVIMENTO_TB_PRODUTO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>7142DC20-7161-9196-4157-D787786E2CD8</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29B07F75-1530-DD72-7D56-1F87DECC3610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4A9C2848-2117-3922-22FA-3376CB45FE1D" mainViewID="19F07EAD-90B4-A9B2-4213-9CF7D45ED1EC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-02-18 12:02:30 UTC</createdTime>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

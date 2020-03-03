@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D9DECAF-5382-0060-C72B-F132348927B6" name="TB_FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>5C731638-2B4A-4915-7063-EE3BD1A1213C</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="43097D9C-2655-43FB-89EA-9E2DA423B214">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>373C41F4-B9C5-CF77-1EE1-0280749C25A6</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="D05F3EFB-E0EB-05A7-4784-79760FF0D73A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>4149D8A3-17AC-CCCD-D586-E00584888C0D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg_funcionario" id="86DA3DC6-057A-7C8E-CCFC-09BA28C25C5B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>F8ED93B5-67BD-C5B5-2AC3-E7D97FD72E5D</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="312AD03D-51AA-C765-0D7B-53ECFB5854E0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>4B5EE88B-2F87-6ACB-6A8E-1962F3A4EFB4</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_funcionario" id="B4ADEED8-ACC4-579E-3E4C-1423EDD736D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>2E60DA19-67D7-A8EB-1B8A-12375F4D5B95</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="972522DF-78FA-C01E-5909-E3C3AD5699F8" name="TB_FUNCIONARIO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>C58EF282-6BA8-A6D7-80A4-21D6664868E6</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43097D9C-2655-43FB-89EA-9E2DA423B214"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

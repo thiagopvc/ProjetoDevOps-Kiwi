@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1861F051-DAC4-F3CB-0D56-668F4AF57C97" containerWithKeyObject="DBF94C7A-23F9-EB91-2811-823230D93388" localFKIndex="D079B1AC-3066-E34F-702C-D3E41D034111" name="TB_PRODUTO_TB_FORNECEDOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 11:42:29 UTC</createdTime>
+<generatorID>D233F4A6-FBF7-B5DF-89CC-4F561C55589E</generatorID>
+<ownerDesignName>KiwiBank</ownerDesignName>
+<referredTableLongName>TB_FORNECEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0965348-31F6-0484-3BF7-224350770472</referredTableID>
+<keyObject>52AE3745-3582-CED9-132E-8FD473B25E8E</keyObject>
+<referredKeyID>52AE3745-3582-CED9-132E-8FD473B25E8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_cnpj_empresa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
